@@ -9,80 +9,84 @@
 <div>
     <h4>Review</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.Type)
-        </dt>
+    <div class="detailsGroup">
+        <div class="thumbnail">
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Category.Type)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Category.Type)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Category.Type)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.BrandName)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.BrandName)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.BrandName)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.BrandName)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ModelName)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.ModelName)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ModelName)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.ModelName)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.PublishDate)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.PublishDate)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.PublishDate)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.PublishDate)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.UserName)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.UserName)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.UserName)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.UserName)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.EmailAdd)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.EmailAdd)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.EmailAdd)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.EmailAdd)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Content)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Content)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Content)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Content)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.overAllRate)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.overAllRate)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.overAllRate)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.overAllRate)
+                </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Helpful)
-        </dt>
+                <dt>
+                    @Html.DisplayNameFor(model => model.Helpful)
+                </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Helpful)
-        </dd>
+                <dd>
+                    @Html.DisplayFor(model => model.Helpful)
+                </dd>
 
-    </dl>
+            </dl>
+            </div>
+        </div>
 </div>
 <p>
     @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |

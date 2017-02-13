@@ -1,48 +1,50 @@
-﻿
-h2{
-    font-size:50px;
+﻿/*The style for my header, very top of my page*/
+h2 {
+    font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
 }
+
+/*Below is where you can find my background, set it up so the image covers the whole page*/
 body {
-    color:#337AB7;
+    color: #337AB7;
     background-image: url('9044185676_b62d3d0d86_b.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-   
-}
-.mainHeader{
-
-    text-align:center;
     border: 5px solid gray;
-    color:#337AB7;
-    background-color:rgba(192,192,192,0.6);
+}
+
+/*Style for my main header, I separated the style for <h2> because I wanted it larger than normal and under different font-family*/
+.mainHeader {
+ 
+    text-align: center;
+    border: 5px solid gray;
+    background-color: rgba(192,192,192,0.6);
     margin: 10px;
 }
-.mainNav{
-     background-color:rgba(192,192,192,1);
-     margin: 10px;     
 
+/*Here's for my Navbar*/
+#navbar-primary {
+    color: #337AB7;
+    font-weight: bolder;
 }
-#navbar-primary{
-     color:#337AB7;
 
-
+/*For my thumbnail, I want to make sure that the contents are readable*/
+.thumbnail {
+    color: black;
+    background-color: rgba(192,192,192,0.6);
+    border-bottom-style:groove;
 }
-.caption{
-   
-  color:#337AB7;
-
+/*I copied this footer online.*/
+html {
+    position: relative;
+    min-height: 100%;
 }
-.thumbnail{
-  color:#337AB7;
-  background-color:rgba(192,192,192,0.6);
-  font-weight: bold;
-
+.footer{
+    border:2px solid black;
 }
 #dunLogo{
-    width:100%;
-    height:2%;
+    height:10%;
+    width:10%;
 }

@@ -8,12 +8,15 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+
+    <!--My banner showing at the very top of my page-->-->
     <header role="banner">
         <div class="mainHeader">
             <h2>Dunctech</h2>
             <p>The latest technology news and reviews, covering computing, home entertainment systems, gadgets and more.</p>
         </div>
 
+    <!--My Navbar-->
         <nav id="navbar-primary" class="navbar navbar-default" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,53 +39,20 @@
             </div><!-- /.container-fluid -->
         </nav>
     </header><!-- header role="banner" -->
-    @*<div class="mainNav">
-    <header role="banner" class="navbar navbar-fixed-top navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <button data-toggle="collapse-side" data-target=".side-collapse" data-target-2=".side-collapse-container" type="button" class="navbar-toggle pull-left"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="navbar-inverse side-collapse in">
-                <nav role="navigation" class="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="http://localhost:57773/Categories">Categories</a></li>
-                        <li><a href="http://localhost:57773/Reviews/Index">Reviews</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>*@
-        
-    </header></div>
-    <div class="container side-collapse-container">
-        <div class="row">
-        </div>
-    </div>
-    @*<div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("#Dunctech", "Home", "Reviews", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                </ul>
-            </div>
-        </div>
-    </div>*@
+  
+    <!--This is for my main Home page-->
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+       
+        <div class="footer">
+            <div class="container">
+                <p>
+                    <img src="~/Content/56acf454a31a4_thumb900.jpg"  id="dunLogo"/> @DateTime.Now
+                Dunctech is a premier website for reviews and commentary on the latest technology trends and news</p>
+               </div>
+            </div>
+       
     </div>
 
     @Scripts.Render("~/bundles/jquery")

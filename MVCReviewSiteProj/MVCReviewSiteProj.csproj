@@ -167,12 +167,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\14011462899_b6b8f3b24a_b.jpg" />
+    <Content Include="Content\2-1.gif" />
+    <Content Include="Content\2279211019_ccf6c1ab33_b.jpg" />
+    <Content Include="Content\56acf454a31a4_thumb900.jpg" />
     <Content Include="Content\9044185676_b62d3d0d86_b.jpg" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\macbook-926335_960_720.jpg" />
+    <Content Include="Content\mobile-phone-1917737_960_720.jpg" />
     <Content Include="Content\Science-Android-Cyborg-Technology-Robotic-Robot-770062.jpg" />
+    <Content Include="Content\Π—P9_LED_smart_home_theater.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
