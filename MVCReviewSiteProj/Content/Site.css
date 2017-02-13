@@ -17,7 +17,6 @@ body {
 
 /*Style for my main header, I separated the style for <h2> because I wanted it larger than normal and under different font-family*/
 .mainHeader {
- 
     text-align: center;
     border: 5px solid gray;
     background-color: rgba(192,192,192,0.6);
@@ -34,17 +33,22 @@ body {
 .thumbnail {
     color: black;
     background-color: rgba(192,192,192,0.6);
-    border-bottom-style:groove;
+    border: 2px solid gray;
 }
-/*I copied this footer online.*/
-html {
-    position: relative;
-    min-height: 100%;
+/*I created border on my footer page*/
+
+
+.footer {
+    border: 2px solid black;
 }
-.footer{
-    border:2px solid black;
+
+/*I resized the height and width of my logo on my footer*/
+
+#dunLogo {
+    height: 10%;
+    width: 10%;
 }
-#dunLogo{
-    height:10%;
-    width:10%;
+#myCarousel{
+    height:50%;
+    width: 90%;
 }

@@ -12,10 +12,10 @@
 
         @foreach (var item in Model)
         {
-            <div class="col-md-4">
+            <div class="col-md-12">
                 <div class="thumbnail">
                     <div class="caption">
-                        <h4>Name: @Html.DisplayFor(model => item.UserName)</h4>                        
+                        <h4>Name: @Html.DisplayFor(model => item.UserName)</h4>
                         <h5>@Html.DisplayFor(model => item.Category.Type)</h5>
                         <h5>@Html.DisplayFor(model => item.BrandName)</h5>
                         <h5>@Html.DisplayFor(model => item.ModelName)</h5>
